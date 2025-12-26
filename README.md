@@ -69,24 +69,40 @@ Expected sales volume
 Expected profit
 
 📂 Project Structure
+
 fuel-price-optimization-clean/
+
 │
+
 ├── fuel_price_optimization.py
+
 ├── README.md
+
 ├── requirements.txt
+
 ├── today_example.json
+
 ├── .gitignore
+
 │
+
 └── data/
+
     └── raw/
+
         └── oil_retail_history.csv
 
 ▶️ How to Run the Project
+
 Step 1: Install dependencies
+
 pip install -r requirements.txt
 
+
 Step 2: Run the pipeline
+
 python fuel_price_optimization.py
+
 
 📈 Sample Output
 {
